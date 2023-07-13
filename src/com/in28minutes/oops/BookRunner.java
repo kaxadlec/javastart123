@@ -13,6 +13,9 @@ public class BookRunner {
         artOfComputerProgramming.setNoOfCopies(5);
         effectiveJava.setNoOfCopies(10);
         cleanCode.setNoOfCopies(11);
+
+        artOfComputerProgramming.increaseNoOfCopies(10);
+
         System.out.println(artOfComputerProgramming.getNoOfCopies());
     }
 }
