@@ -6,8 +6,15 @@ public class MotorBike {
     }
 
     //state
-    private int speed;
-    //behavior
+    private int speed; // member variable
+
+    MotorBike(){
+        this(5);
+    }
+
+    MotorBike(int speed){
+        this.speed = speed;
+    }
 
     // method
     // inputs - int speed
