@@ -25,5 +25,11 @@ public class MotorBike {
     public void increaseSpeed(int howMuch){
         this.speed += howMuch;
     }
+    public void decreaseSpeed(int howMuch){
+        if(this.speed - howMuch > 0 ){
+            this.speed -= howMuch;
+        }
+
+    }
 
 }
