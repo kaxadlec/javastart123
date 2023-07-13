@@ -9,13 +9,8 @@ public class MotorBikeRunner {
         honda.start();
 
         ducati.setSpeed(100);
-        int ducatiSpeed = ducati.getSpeed(); // get ducati speed
-        ducatiSpeed += 100; // increase it by 100
-        ducati.setSpeed(ducatiSpeed); // set it to ducati
-
-        int hondaSpeed = honda.getSpeed(); // get honda speed
-        hondaSpeed += 100; // increase it by 100
-        honda.setSpeed(hondaSpeed); // set it to honda
+        ducati.increaseSpeed(20);
+        honda.increaseSpeed(40);
 
         System.out.println(ducati.getSpeed());
         System.out.println(honda.getSpeed());
